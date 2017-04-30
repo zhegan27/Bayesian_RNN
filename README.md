@@ -13,7 +13,7 @@ The code for the ACL 2017 paper “[Scalable Bayesian Learning of Recurrent Neur
 
 * Running the python files can reproduce the results in the paper. 
 
-* For the PTB dataset with successive minibatches, we extend [wojzaremba's lua code](https://github.com/wojzaremba/lstm).
+* For the PTB dataset with successive minibatches, we extend [wojzaremba's lua code](https://github.com/wojzaremba/lstm). For the PTB dataset with random minibatches, we use the provided theano code to run the experiments. 
 
 ## Citing Bayesian RNN
 
@@ -23,7 +23,6 @@ Please cite our ACL paper in your publications if it helps your research:
     @inproceedings{BayesianRNN_ACL2017,
       title={Scalable Bayesian Learning of Recurrent Neural Networks for Language Modeling},
       author = {Gan, Zhe and Li, Chunyuan and Chen, Changyou and Pu, Yunchen and Su, Qinliang and Carin, Lawrence},
-      Title = {Semantic Compositional Networks for Visual Captioning},
       booktitle={ACL},
       Year  = {2017}
     }
